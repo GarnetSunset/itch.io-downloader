@@ -5,6 +5,8 @@ __pycache__/
 
 # C extensions
 *.so
+chromedriver.exe
+repo.ini
 
 # Distribution / packaging
 .Python
