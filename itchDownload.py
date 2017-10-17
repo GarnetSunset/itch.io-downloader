@@ -31,8 +31,6 @@ else:
     zip_ref.extractall(owd)
     zip_ref.close
 
-    os.remove("chromedriver.zip")
-
     locationString = 'chromedriver.exe'
 
 driver = webdriver.Chrome(executable_path=(locationString), chrome_options=chromeOptions)
